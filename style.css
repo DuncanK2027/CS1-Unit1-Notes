@@ -1,1 +1,22 @@
-
+body {
+    background: rgb(253, 253, 81);
+}
+/* Select by TAG type */
+p {
+    color: green
+}
+/* Select by ID name (unique) */
+#duncan {
+    background: orange
+}
+/* Select by CLASS name (shared styles) */
+.uniform {
+    color: red
+}h1 {
+    color: purple;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 40px;
+    font-family:Cambria;
+    text-align:center
+}
