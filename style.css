@@ -7,7 +7,11 @@ p {
 }
 /* Select by ID name (unique) */
 #duncan {
-    background: orange
+    background: orange;
+    border: 3px dashed black;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 25px;
 }
 /* Select by CLASS name (shared styles) */
 .uniform {
@@ -18,5 +22,22 @@ p {
     font-style: italic;
     font-size: 40px;
     font-family:Cambria;
-    text-align:center
+    text-align:center;
 }
+
+/* "comment-out code (deactivate)
+* {
+    border:2px solid red;
+} 
+*/
+
+.centered {text-align: center; margin: auto;
+
+    img {
+        border-width: 3px;
+        border-style: solid; double;
+        border-color: black;
+    }
+
+}
+
